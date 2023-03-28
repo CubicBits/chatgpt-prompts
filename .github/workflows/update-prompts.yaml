@@ -1,7 +1,7 @@
 name: Run Python script every 12 hours
 
 on:
-  push
+  push:
   schedule:
     - cron: '0 */12 * * *'
 
